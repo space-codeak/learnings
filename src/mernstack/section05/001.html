@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>differnt type of selectors</title>
+    <style>
+        .red{
+            color: red;
+        }
+        #blue{
+            color:blue;
+        }
+        .tomato{
+            color: tomato;
+        }
+        .tomato [value="4"]{
+            color:green;
+        }
+    </style>
+  </head>
+  <body>
+    <p class="red">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil incidunt
+      vel fugit ducimus quia perspiciatis debitis officiis sunt consequatur eos.
+      Officiis dignissimos reiciendis, ad cum quibusdam nisi itaque dolorem
+      quam!
+    </p>
+    <p id="blue">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel voluptatem
+      modi ratione saepe id sunt tempora molestiae veniam voluptates voluptate
+      culpa blanditiis possimus odio, beatae dignissimos eveniet repellat vero
+      doloribus consequuntur ipsa. Excepturi deleniti placeat maxime quos cum?
+      Itaque maiores esse doloremque laborum a quod est harum et eum distinctio.
+    </p>
+    <ol class="tomato">
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit.</li>
+        <li value="4">Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ol>
+  </body>
+</html>
