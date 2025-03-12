@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar using flex</title>
+    <style>
+        li{
+            float: left;
+            margin-left: 5px;
+            margin-top: 0px;
+            padding: 0;
+            border: 2px solid black;
+       
+            
+            
+        }
+        ul{
+            list-style: none;
+            align-items:end;
+
+        }
+        .container{
+            display: flex;
+            gap:100px;
+            background-color: yellow;
+            width: 100%;
+            height:50px;
+            align-items:flex-start;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+            
+            
+            
+        }
+        .container >ul{
+            height: 30px;
+            flex-basis: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+            <li>signup</li>
+            <li>send resume</li>
+            <li>bat man</li>
+        </ul>
+    </div>
+</body>
+</html>

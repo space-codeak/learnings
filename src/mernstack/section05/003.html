@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline ,block and inline block</title>
+    <link rel="shortcut icon" href="./home.ico" type="image/x-icon">
+    <style>
+        .inline{
+            
+            background-color: tomato;
+           
+        }
+        .inline>h1{
+            display: inline;
+            background-color: green;
+        }
+        .block{
+            background-color: aqua;
+        }
+        .block>h1{
+            display: block;
+            background-color: green;
+        }
+        .block>h2{
+            display: inline;
+            background-color: green;
+        }
+
+        .iblock{
+            background-color: bisque;
+
+        }
+        .iblock>h1{
+            display: inline;
+            background-color: tomato;
+        }
+        .iblock>h2{
+            display: inline-block;
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="inline">
+        <h1>Hello</h1>
+    </div>
+    <div class="block">
+        <h1>hii</h1>
+        <h2>bye</h2>
+    </div>
+    <div class="iblock">
+        <h1>haha</h1>
+        <h2>babababva</h2>
+    </div>
+
+
+</body>
+</html>
