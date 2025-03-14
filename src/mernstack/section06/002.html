@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar project</title>
+    <style>
+        body{
+            padding:0;
+            margin: 0;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding:20px;
+            background-color: #1a1a1a;
+            color:white;
+
+        }
+        .nav-container{
+            margin-bottom: 40px;
+        }
+        h2{
+            margin-bottom: 30px;
+        }
+        .nav1{
+            border:1px solid green;
+            background-color: white;
+            padding:10px;
+            background-color: tomato;
+        }
+        .nav1 ul{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            display: flex;
+          
+            justify-content: space-around;
+
+        }
+        .nav1 li{
+            display: inline;
+            
+
+        }
+        .nav1  a{
+            text-decoration: none;
+            
+            color:white
+        }
+
+
+
+        .nav2{
+            border: 1px solid yellow;
+            background-color: tomato;
+           
+        }
+
+        .nav2 ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .nav2 li{
+            display: inline;
+        }
+        .nav2 a{
+            text-decoration: none;
+            color:white;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+
+        .drop{
+            position: absolute;
+            display: block;  
+            background-color: antiquewhite;
+            color: black;
+        }
+        .drop ul{
+            margin: 0;
+            padding: 0;
+            display: block;
+            position: absolute;
+            background-color: green;
+            width: 80px;
+            padding-bottom:10px;
+            
+            
+        }
+        .drop li{
+            margin:10px;
+            color:white;
+            
+        }
+        .drop:hover{
+           
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <h2>Varation 1: Horizental with underline effect</h2>
+            <nav class="nav1">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <!--some drop down-->
+                        
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><button class="login-btn">Login</button></li>
+                </ul>
+            </nav>
+        
+
+    </div>
+
+    <div class="nav-container">
+        <h2>Varation 2: vertical with hover effect</h2>
+        <nav class="nav2">
+            <ul>
+                <li><a href="#">Home</a>
+                    <div class="drop">
+                        <ul>
+                            <li>bye</li>
+                            <li>tata</li>
+                            <li>baba</li>
+                            <li>tmoaata</li>
+                        </ul>
+                    </div>
+                
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><button class="login-btn">Login</button></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="nav-container">
+        <h2>Varation 3: Horizental with dropdown</h2>
+        <nav class="nav3">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><button class="login-btn">Login</button></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

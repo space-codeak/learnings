@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page </title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: #1a1a1a;
+            margin:0;
+            padding:0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: #9880eeb5;
+            border-radius: 8px;
+            padding:30px;
+            width: 300px;
+
+        }
+        h2{
+            color:#fffcfc;
+            text-align: center;
+            margin-bottom: 70px;
+            margin-top: 4px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            
+
+
+        }
+        input{
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid black;
+
+        }
+        input:hover{
+            border:3px solid green;
+            padding:20px;
+            background-color: #787777;
+            color: white;
+            rotate:340deg;
+
+        }
+        button{
+            background-color: #f10909b6;
+            padding: 5px;
+            color: #ffffff;
+            font-weight: bolder;
+            font-size: 30;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            border-radius: 8px;
+
+        }
+        button:hover{
+            background-color: #f1090955;
+          
+            rotate:1 1 1 20deg;
+           
+
+        }
+        button:focus{
+            rotate:1 1 1 8deg;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Login</h2>
+        <form >
+            <input type="email" name="email" placeholder="user email">
+            <input type="password" name="password" placeholder="user password">
+            <button type="submit">Sign In </button>
+        </form>
+    </div>
+</body>
+</html>
