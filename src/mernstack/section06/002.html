@@ -72,13 +72,13 @@
         }
 
 
-        .drop{
+        .d{
             position: absolute;
-            display: block;  
+            display: none;  
             background-color: antiquewhite;
             color: black;
         }
-        .drop ul{
+        .d ul{
             margin: 0;
             padding: 0;
             display: block;
@@ -89,13 +89,13 @@
             
             
         }
-        .drop li{
+        .d li{
             margin:10px;
             color:white;
             
         }
-        .drop:hover{
-           
+        .d :hover{
+           display: block;
         }
 
 
@@ -126,7 +126,7 @@
         <h2>Varation 2: vertical with hover effect</h2>
         <nav class="nav2">
             <ul>
-                <li><a href="#">Home</a>
+                <li class="d"><a href="#">Home</a>
                     <div class="drop">
                         <ul>
                             <li>bye</li>
