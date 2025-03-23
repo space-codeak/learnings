@@ -21,8 +21,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func IBpressed(_ sender: UIButton) {
-        dI01.image=UIImage(named:"003");
-        dI02.image=UIImage(named:"002");
+       let  a:Int=Int.random(in:1...4);
+        let  b:Int=Int.random(in:1...4);
+        
+       
+        print(a);
+        print(b);
+        let res:String="00\(a)";
+        let res1:String="00\(b)";
+        
+        dI01.image=UIImage(named:res);
+        dI02.image=UIImage(named:res1);
     }
     
 }
